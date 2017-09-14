@@ -1,0 +1,356 @@
+
+/*
+verde: #2f9e41;
+vermelho: #cd191e;
+preto: #000000;
+*/
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container .row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+html, body, .page-wrap {
+	min-height: 100%;
+}
+
+body {
+	background-color: #F6F6F6;
+}
+
+.page-wrap {
+	background-color: #FFF;
+	padding: 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	-webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, .4);
+	box-shadow: 0 2px 1px 0 rgba(0, 0, 0, .4);
+}
+
+.cabecalho {
+	padding: 15px;
+}
+
+.cabecalho .logo {
+	height: 200px;
+}
+
+.cabecalho h1 {
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 33px;
+}
+
+.cabecalho h2 {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.cabecalho h3 {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.cabecalho h1,
+.cabecalho h2,
+.cabecalho h3 {
+	line-height: 1.5;
+	margin: 0;
+}
+
+.cabecalho-info {
+	margin-top: 30px;
+	text-align: right;
+}
+
+.cabecalho-info .fa {
+	color: #A8A8A8;
+	margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+	.cabecalho {
+		text-align: center;
+	}
+
+	.cabecalho .logo {
+		height: 120px;
+		margin: 0 30px;
+	}
+
+	.cabecalho h1 { font-size: 21px; margin: 30px 0 15px; }
+	.cabecalho h2 { font-size: 16px; margin: 10px 0; }
+	.cabecalho h3 { font-size: 12px; }
+
+	.cabecalho h1,
+	.cabecalho h2,
+	.cabecalho h3 {
+		line-height: 1;
+	}
+
+	.cabecalho-info {
+		margin-top: 15px;
+		text-align: center;
+	}
+}
+
+.inline-top {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.navbar-default {
+	background-color: #2f9e41;
+	border-radius: 0;
+	border: 0 none;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #ffffff;
+}
+.navbar-default .navbar-text {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-moz-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+	-o-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+}
+.navbar-default .navbar-nav > li + li {
+	margin-left: -4px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #ffffff;
+	background-color: #237731;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #237731;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #ffffff;
+	background-color: #237731;
+}
+.navbar-default .navbar-toggle {
+	border-color: #237731;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #237731;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+	color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+	color: #ffffff;
+}
+@media (min-width: 767px) {
+	.navbar-default .navbar-nav, 
+	.navbar-default .navbar-nav > li {
+		text-align: center;
+		float: none;
+	}
+	.navbar-default .navbar-nav > li {
+		display: inline-block;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #ffffff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #ffffff;
+		background-color: #237731;
+	}
+}
+
+.menu-lateral {
+	list-style-type: none;
+	padding: 0;
+	text-align: left;
+	width: 100%;
+	padding: 30px 0 30px 15px;
+}
+
+.menu-lateral > li {
+	display: block;
+	border-right: 2px solid transparent;
+
+	-webkit-transition: border-color 0.2s ease-in-out;
+	-moz-transition: border-color 0.2s ease-in-out;
+	-ms-transition: border-color 0.2s ease-in-out;
+	-o-transition: border-color 0.2s ease-in-out;
+	transition: border-color 0.2s ease-in-out;
+}
+
+.menu-lateral > li:hover, 
+.menu-lateral > li:focus, 
+.menu-lateral > li.active {
+	border-color: #cd191e;
+}
+
+.menu-lateral > li > a {
+	color: #000000;
+	display: block;
+	font-size: 14px;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+.menu-lateral > li:hover > a, 
+.menu-lateral > li:focus > a, 
+.menu-lateral > li.active > a {
+	color: #cd191e;
+}
+
+.conteudo-pagina {
+	padding: 30px;
+}
+
+.titulo-pagina {
+	font-size: 21px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.rodape {
+	padding: 0;
+	background-color: #DDD;
+	text-align: center;
+	font-size: 12px;
+}
+
+.rodape .mapa iframe {
+	display: block;
+}
+
+.rodape .icone-rodape {
+	padding: 10px;
+	width: 42px;
+	font-size: 12px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.rodape-contato {
+	padding: 15px;
+	text-align: left;
+	line-height: 2;
+}
+
+.rodape-contato > .icone-rodape,
+.rodape-contato > span {
+	display: inline;
+	vertical-align: middle;
+}
+
+.redes-sociais {
+	padding: 0 30px;
+	margin-top: 25px;
+	list-style-type: none;
+	text-align: right;
+}
+
+.redes-sociais li {
+	background-color: #787878;
+	border-radius: 100%;
+	color: #FFF;
+	display: inline-block;
+	font-size: 15px;
+	height: 30px;
+	padding: 5px 0;
+	text-align: center;
+	width: 30px;
+}
+
+.redes-sociais li:hover {
+	background-color: #3b5998;
+}
+
+@media (max-width: 768px) {
+	.page-wrap {
+		margin-top: 0;
+		padding: 0 0 15px;
+		padding: 0;
+		margin: 0;
+	}
+
+	.conteudo-pagina {
+		padding: 15px;
+	}
+	
+	.menu-lateral {
+		padding: 10px 0;
+	}
+	
+	.menu-lateral > li {
+		border: 0 none;
+	}
+
+	.menu-lateral > li:hover, 
+	.menu-lateral > li:focus, 
+	.menu-lateral > li.active {
+		background-color: #E9E9E9;
+	}
+
+	.menu-lateral > li:hover > a, 
+	.menu-lateral > li:focus > a, 
+	.menu-lateral > li.active > a {
+		color: #000;
+	}
+
+	.rodape {
+		padding-bottom: 15px;
+	}
+
+	.rodape-contato {
+		margin: 15px;
+	}
+	
+	.redes-sociais {
+		float: none !important;
+		text-align: center;
+	}
+}
+
+
+/* Melhor Usabilidade do Texto */
+body{
+    font-size:16px;
+    line-height: 1.5;
+    color: #465459;
+    text-align: justify;
+}

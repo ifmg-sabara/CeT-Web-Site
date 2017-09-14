@@ -1,0 +1,7 @@
+<p>Considerando a diversidade dos cursos das instituições participantes, os projetos a serem desenvolvidos serão organizados pelos coordenadores dos cursos. Assim, os projetos poderão ser divididos em grupos, salas ou períodos. Os coordenadores deverão apresentar a proposta definida pelos alunos e professores. Os projetos da Exposição de C&amp;T deverão demonstrar conhecimentos adquiridos pelos alunos nas disciplinas dos cursos que estão matriculados. No dia do evento os projetos deverão apresentar os resultados alcançados por meio de exposição de produtos, protótipos ou maquetes. Independente da proposta apresentada, todos os projetos deverão possuir um ou mais professores orientadores. Os orientadores irão acompanhar todo o desenvolvimento dos projetos, garantindo assim a boa execução e segurança dos projetos. Os projetos deverão entregar um vídeo explicativo (Pitch) do projeto com duração máxima de 30 segundos. Os vídeos serão apresentados na abertura do evento e poderão ser apresentados durante a Mostra Tecnológica.</p>
+
+<img src="/img/mostra-tecnologica.jpg" class="img-responsive" alt="Mostra Tecnológica">
+
+<div class="caption">
+   <p>Foto: <a href="https://pixabay.com" target="_blank">Pixabay</a></p>
+ </div>
